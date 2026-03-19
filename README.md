@@ -1,69 +1,66 @@
-\# 🍽️ Dinsho Lounge Bill Management System
+# 🍽️ Dinsho Lounge Bill Management System
 
+A complete restaurant bill management system built with Node.js, Express, MySQL, and modern frontend technologies.
 
+## 🚀 Features
 
-A complete restaurant bill management system built with Node.js, MySQL, and modern frontend technologies.
+### 👨‍💼 Cashier Dashboard
+- Process payments (Cash, Card, Mobile)
+- View and manage active orders
+- Track table status
+- Print receipts
 
+### 👨‍🍳 Kitchen Display System
+- View incoming orders in real-time
+- Update order status (Preparing → Ready)
+- See order details and special instructions
 
+### 🪑 Table Management
+- Track table occupancy
+- Assign orders to tables
+- View table history
 
-\## 📋 Features
+### 📊 Reports & Analytics
+- Daily sales reports
+- Popular items tracking
+- Revenue analytics
 
+## 🛠️ Technologies Used
 
+### Backend
+- **Node.js** - JavaScript runtime
+- **Express** - Web framework
+- **MySQL** - Database
+- **JWT** - Authentication
+- **Bcrypt** - Password hashing
 
-\- \*\*Customer Interface\*\*: Browse menu, place orders
+### Frontend
+- **HTML5** - Structure
+- **CSS3** - Styling
+- **JavaScript** - Interactivity
+- **Bootstrap** - Responsive design
 
-\- \*\*Cashier Dashboard\*\*: Process payments, manage orders
+### Development Tools
+- **Git** - Version control
+- **npm** - Package management
+- **nodemon** - Auto-restart
+- **Concurrently** - Run multiple scripts
 
-\- \*\*Kitchen Display\*\*: View incoming orders, update status
-
-\- \*\*Table Management\*\*: Track table occupancy
-
-\- \*\*Payment Processing\*\*: Cash, Card, Mobile payments
-
-
-
-\## 🚀 Technologies Used
-
-
-
-\- \*\*Backend\*\*: Node.js, Express, MySQL
-
-\- \*\*Frontend\*\*: HTML5, CSS3, JavaScript, Bootstrap
-
-\- \*\*Tools\*\*: Git, npm, nodemon
-
-
-
-\## 📦 Installation
-
-
-
-1\. Clone the repository
-
-2\. Run `npm install`
-
-3\. Create `.env` file with database credentials
-
-4\. Run `npm run db:setup` to create database
-
-5\. Run `npm run dev` to start development server
-
-
-
-\## 📁 Project Structure
-
+## 📁 Project Structure
 dinsho-lounge-system/
-├── backend/ # Node.js backend
-├── frontend/ # Frontend files
-├── database/ # SQL schemas
-├── docs/ # Documentation
+├── 📂 backend/
+│ ├── 📂 config/ # Database configuration
+│ ├── 📂 controllers/ # Business logic
+│ ├── 📂 models/ # Database models
+│ ├── 📂 routes/ # API routes
+│ └── server.js # Main server file
+├── 📂 frontend/
+│ ├── 📂 public/ # HTML files
+│ ├── 📂 css/ # Stylesheets
+│ ├── 📂 js/ # Client-side JavaScript
+│ └── 📂 assets/ # Images and icons
+├── 📂 database/ # SQL schemas
+├── 📂 docs/ # Documentation
+├── .env # Environment variables
+├── .gitignore # Git ignore file
 └── package.json # Dependencies
-
-
-## 👨‍💻 Author
-
-Hamid Awol
-
-## 📄 License
-
-ISC
